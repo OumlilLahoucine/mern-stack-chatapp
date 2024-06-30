@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+:root {
+  --body-font: "Ubuntu", sans-serif;
+  --body-text-color: #718096;
+  --body-heading-color: #293951;
+  --body-bg: #ffffff;
+  --theme-color: #03bd9d;
+  --theme-color-light: rgba(3, 189, 157, 0.08);
+  --theme-bg: #f7f8fa;
+  --theme-bg2: #f5f6fa;
+  --theme-bg3: #ffffff;
+  --theme-bg-light: #f1f6fb;
+  --theme-bg-light2: #e6ebf5;
+  --color-primary: #7380ec;
+  --color-danger: #ff7782;
+  --color-warning: #ffbb55;
+  --color-success: #38daa8;
+  --color-white: #ffffff;
+  --color-dark: #293951;
+  --color-info-dark: #7d8da1;
+  --color-info-light: #dce1eb;
+  --box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+  --box-shadow2: 0 0 15px rgba(0, 0, 0, 0.17);
+  --transition: all 0.5s ease-in-out;
+  --transition2: all 0.3s ease-in-out;
+  --border-info-color: rgba(0, 0, 0, 0.08);
+  --border-info-color2: rgba(0, 0, 0, 0.05);
+  --border-white-color: rgba(255, 255, 255, 0.12);
+  --border-white-color2: rgba(255, 255, 255, 0.07);
+  --secondary: #e3f5ef;
+}
+body {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  scrollbar-width: none;
+  scrollbar-color: var(--color-success) var(--secondary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--secondary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-success);
+  border-radius: 14px;
+  border: 3px solid var(--secondary);
+}
