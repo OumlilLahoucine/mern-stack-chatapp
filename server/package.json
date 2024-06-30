@@ -4,7 +4,7 @@
   "description": "The API of ChatApp",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Oumlil Lahoucine",
   "license": "ISC",
