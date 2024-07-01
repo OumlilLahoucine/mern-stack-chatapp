@@ -26,7 +26,7 @@ const limiter = rateLimit({
 // MiddleWares
 app.use(helmet());
 app.use(morgan("tiny"));
-app.use(cors());
+app.use(cors({ origin: "https://mern-stack-chatapp-ten.vercel.app/" }));
 app.use("/api/v1/auth", limiter);
 app.use(express.json());
 app.use(mongoSanitize());
