@@ -6,14 +6,14 @@ This project is the frontend of a Realtime Chat Web Application built with React
 
 ### Desktop
 
-<img src="./screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:2px solid black'/>
-<img src="./screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:2px solid black'/>
+<img src="../screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:2px solid black'/>
+<img src="../screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:2px solid black'/>
 
 ### Mobile
 
 <div style='dispay:flex;gap:50'>
-<img src="./screenshots/screen1-mobile.jpeg" alt="Screen 1 - mobile" width="300" style='border:2px solid black'/>
-<img src="./screenshots/screen2-mobile.jpeg" alt="Screen 2 - mobile" width="300" style='border:2px solid black'/>
+<img src="../screenshots/screen1-mobile.jpeg" alt="Screen 1 - mobile" width="300" style='border:2px solid black'/>
+<img src="../screenshots/screen2-mobile.jpeg" alt="Screen 2 - mobile" width="300" style='border:2px solid black'/>
 </div>
 
 ## Features
