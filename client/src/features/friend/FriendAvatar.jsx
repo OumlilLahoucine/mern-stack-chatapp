@@ -1,8 +1,10 @@
 import { memo } from "react";
 
+const URL = process.env.REACT_APP_PROXY;
+
 function FriendAvatar({ image, username, isOnline, small = false }) {
   const imageUrl = image
-    ? `http://127.0.0.1:3000/images/profile/${image}`
+    ? `${URL}/images/profile/${image}`
     : "images/avatar.png";
   return (
     <div className={`relative ${small ? "h-10 w-10" : "h-12 w-12"}`}>
