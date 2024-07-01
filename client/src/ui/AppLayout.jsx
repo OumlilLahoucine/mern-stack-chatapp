@@ -5,7 +5,8 @@ import { useSelected } from "../contexts/selected";
 import MessageBox from "../features/message/MessageBox";
 import SideBar from "./SideBar";
 
-const socket = io("https://chatapp-api-27cz.onrender.com");
+const URL = process.env.REACT_APP_PROXY;
+const socket = io(URL);
 
 function AppLayout() {
   const { user } = useAuth();
