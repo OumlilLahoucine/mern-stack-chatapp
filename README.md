@@ -6,16 +6,14 @@ This project is a Realtime Chat Web Application built with the MERN stack. It fe
 
 ### Desktop
 
-![Screen 1](./screenshots/screen1-desktop.png)
-![Screen 2](./screenshots/screen2-desktop.png)
-<img src="./screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:1px solid grey'/>
-<img src="./screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:1px solid grey'/>
+<img src="./screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:1px solid gray'/>
+<img src="./screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:1px solid gray'/>
 
 ### Mobile
 
 <div style='dispay:flex;gap:50'>
-<img src="./screenshots/screen1-mobile.jpeg" alt="Screen 1 - mobile" width="300" style='border:1px solid grey'/>
-<img src="./screenshots/screen2-mobile.jpeg" alt="Screen 2 - mobile" width="300" style='border:1px solid grey'/>
+<img src="./screenshots/screen1-mobile.jpeg" alt="Screen 1 - mobile" width="300" style='border:1px solid gray'/>
+<img src="./screenshots/screen2-mobile.jpeg" alt="Screen 2 - mobile" width="300" style='border:1px solid gray'/>
 </div>
 
 ## Features
