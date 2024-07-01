@@ -11,8 +11,10 @@ This project is a Realtime Chat Web Application built with the MERN stack. It fe
 
 ### Mobile
 
-<img src="./screenshots/screen1-mobile.jpeg" alt="Screen 1 - mobile" width="200"/>
-<img src="./screenshots/screen2-mobile.jpeg" alt="Screen 2 - mobile" width="200"/>
+<div style='dispay:flex;gap:40px'>
+<img src="./screenshots/screen1-mobile.jpeg" alt="Screen 1 - mobile" width="300"/>
+<img src="./screenshots/screen2-mobile.jpeg" alt="Screen 2 - mobile" width="300"/>
+</div>
 
 ## Features
 
