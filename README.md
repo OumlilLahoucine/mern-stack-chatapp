@@ -1,4 +1,3 @@
-````markdown
 # Realtime Chat Application
 
 This project is a Realtime Chat Web Application built with the MERN stack. It features real-time messaging, invitations, typing status, message status, online state, and search functionalities for friends and recent chats.
@@ -7,13 +6,13 @@ This project is a Realtime Chat Web Application built with the MERN stack. It fe
 
 ### Desktop
 
-![Screen 1](screenshots/screen1-desktop.png)
-![Screen 2](screenshots/screen2-desktop.png)
+![Screen 1](./screenshots/screen1-desktop.png)
+![Screen 2](./screenshots/screen2-desktop.png)
 
 ### Mobile
 
-![Screen 1](screenshots/screen1-mobile.jpeg)
-![Screen 2](screenshots/screen2-mobile.jpeg)
+![Screen 1](./screenshots/screen1-mobile.jpeg)
+![Screen 2](./screenshots/screen2-mobile.jpeg)
 
 ## Features
 
@@ -100,4 +99,3 @@ This project is a Realtime Chat Web Application built with the MERN stack. It fe
    ```sh
    npm start
    ```
-````

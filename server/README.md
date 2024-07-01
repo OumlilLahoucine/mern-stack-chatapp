@@ -1,4 +1,3 @@
-````markdown
 # Realtime Chat Application - Backend
 
 This project is the backend of a Realtime Chat Web Application built with Express and Socket.io. It manages real-time messaging, invitations, typing status, message status, online state, and search functionalities for friends and recent chats.
@@ -52,4 +51,3 @@ This project is the backend of a Realtime Chat Web Application built with Expres
    ```sh
    npm start
    ```
-````
