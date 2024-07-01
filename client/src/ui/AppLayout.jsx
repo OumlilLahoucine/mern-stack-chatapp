@@ -5,7 +5,7 @@ import { useSelected } from "../contexts/selected";
 import MessageBox from "../features/message/MessageBox";
 import SideBar from "./SideBar";
 
-const socket = io("http://127.0.0.1:3000");
+const socket = io("https://chatapp-api-27cz.onrender.com");
 
 function AppLayout() {
   const { user } = useAuth();
