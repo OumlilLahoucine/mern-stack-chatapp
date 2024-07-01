@@ -63,6 +63,7 @@ export function AuthProvider({ children }) {
 
   async function login(body) {
     dispatch({ type: "user/loading" });
+    console.log(`${AUTH_URL}/login`)
     try {
       const res = await fetch(`${AUTH_URL}/login`, {
         method: "POST",
