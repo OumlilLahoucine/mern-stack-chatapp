@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const cors = require("cors");
+// const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const authRouter = require("./routes/authRoutes");
@@ -26,7 +26,7 @@ const limiter = rateLimit({
 // MiddleWares
 app.use(helmet());
 app.use(morgan("tiny"));
-app.use(cors({ origin: "https://mern-stack-chatapp-ten.vercel.app/" }));
+// app.use(cors());
 app.use("/api/v1/auth", limiter);
 app.use(express.json());
 app.use(mongoSanitize());
