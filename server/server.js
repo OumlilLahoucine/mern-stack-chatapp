@@ -1,7 +1,6 @@
 const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
 const app = require("./app");
-const cors = require("cors");
 const mongoose = require("mongoose");
 const { createServer } = require("node:http");
 const { Server } = require("socket.io");
@@ -37,8 +36,6 @@ server.listen(process.env.PORT, () => {
 const io = new Server(server, {
   cors: { origin: "https://mern-stack-chatapp-ten.vercel.app/" },
 });
-
-app.use(cors({ origin: "https://mern-stack-chatapp-ten.vercel.app/" }));
 
 // const onlineUsers = {};
 const onlineUsers = new Map();
