@@ -34,7 +34,7 @@ server.listen(process.env.PORT, () => {
 });
 
 const io = new Server(server, {
-  cors: { origin: "https://mern-stack-chatapp-ten.vercel.app" },
+  cors: { origin: process.env.CORS_ORIGIN },
 });
 
 // const onlineUsers = {};

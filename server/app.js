@@ -28,7 +28,7 @@ app.use(helmet());
 app.use(morgan("tiny"));
 app.use(
   cors({
-    origin: "https://mern-stack-chatapp-ten.vercel.app",
+    origin: process.env.CORS_ORIGIN,
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );

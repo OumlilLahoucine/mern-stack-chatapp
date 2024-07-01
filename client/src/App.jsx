@@ -28,11 +28,11 @@ function App() {
             }
           />
           <Route
-            path="login"
+            path="/login"
             element={isAuth ? <Navigate to="/" replace={true} /> : <Login />}
           />
           <Route
-            path="register"
+            path="/register"
             element={isAuth ? <Navigate to="/" replace={true} /> : <SignUp />}
           />
         </Routes>
