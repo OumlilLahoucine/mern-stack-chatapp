@@ -11,8 +11,8 @@ This project is the frontend of a Realtime Chat Web Application built with React
 
 ### Mobile
 
-![Screen 1](./screenshots/screen1-mobile.jpeg)
-![Screen 2](./screenshots/screen2-mobile.jpeg)
+<img src="./screenshots/screen1-mobile.jpeg" alt="Screen 1 - mobile" width="200"/>
+<img src="./screenshots/screen2-mobile.jpeg" alt="Screen 2 - mobile" width="200"/>
 
 ## Features
 
