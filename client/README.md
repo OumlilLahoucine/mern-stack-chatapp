@@ -37,7 +37,7 @@ This project is the frontend of a Realtime Chat Web Application built with React
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/OumlilLahoucine/mern-stack-chatapp
    cd client
    ```
 

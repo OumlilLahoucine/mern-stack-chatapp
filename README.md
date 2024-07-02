@@ -2,6 +2,13 @@
 
 This project is a Realtime Chat Web Application built with the MERN stack. It features real-time messaging, invitations, typing status, message status, online state, and search functionalities for friends and recent chats.
 
+This version (v1.0.0) includes only text messages. images, audios and videos will be included in the next versions.
+
+## Links
+
+- Code URL: [MERN stack ChatApp code](https://github.com/OumlilLahoucine/mern-stack-chatapp)
+- Live Site URL: [MERN stack ChatApp live](https://mern-stack-chatapp-plum.vercel.app)
+
 ## Screenshots
 
 ### Desktop
@@ -49,7 +56,7 @@ This project is a Realtime Chat Web Application built with the MERN stack. It fe
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/OumlilLahoucine/mern-stack-chatapp
    cd client
    ```
 

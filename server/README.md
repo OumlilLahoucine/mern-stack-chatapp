@@ -25,7 +25,7 @@ This project is the backend of a Realtime Chat Web Application built with Expres
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/OumlilLahoucine/mern-stack-chatapp
    cd server
    ```
 
