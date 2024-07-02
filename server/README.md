@@ -2,6 +2,8 @@
 
 This project is the backend of a Realtime Chat Web Application built with Express and Socket.io. It manages real-time messaging, invitations, typing status, message status, online state, and search functionalities for friends and recent chats.
 
+This version (v1.0.0) includes text messaging only. Photos, audio recordings, and videos will be included in upcoming releases
+
 ## Features
 
 - Realtime messaging
