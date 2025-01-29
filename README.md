@@ -14,7 +14,7 @@ This version (v1.0.0) includes text messaging only. Photos, audio recordings, an
 ### Desktop
 
 <img src="./screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:2px solid black'/>
-<img src="./screenshots/screen1-desktop.png" alt="Screen 1 - desktop" style='border:2px solid black'/>
+<img src="./screenshots/screen2-desktop.png" alt="Screen 2 - desktop" style='border:2px solid black'/>
 
 ### Mobile
 
